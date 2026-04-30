@@ -5,18 +5,18 @@
 // ============================================================
 
 const SELLER = {
-  name:      "TheDecorKart",
+  name:      "Jaya & Preeti Lifestyle",
   tagline:   "Crafted & Trusted for Over 12 Years",
 
   // Contact numbers
-  phone1:    "+91 98115 36888",
-  phone2:    "+91 98113 31181",
+  phone1:    "+91 9354378404",
+  phone2:    "+91 64465465444",
 
   // WhatsApp number WITHOUT + or spaces (country code + number)
-  whatsapp:  "919811536888",
+  whatsapp:  "919354378414",
 
-  email:     "info@thedecorkart.com",
-  address:   "Shivalik Meta Plast Industries, New Delhi, India",
+  email:     "jaya@preeti.lifestyle.com",
+  address:   "Jaya & Preeti, New Delhi, India",
   hours:     "Mon–Sat: 10AM – 7PM  |  Sun: 11AM – 5PM",
 
   // Social links
