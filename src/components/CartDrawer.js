@@ -1,4 +1,6 @@
+
 import { fmt } from '../utils/format';
+import SELLER from '../config/seller';
 
 export default function CartDrawer({ cart, onClose, onRemove }) {
   const total    = cart.reduce((s, i) => s + i.price * i.qty, 0);
@@ -50,9 +52,20 @@ export default function CartDrawer({ cart, onClose, onRemove }) {
               <span>Total</span>
               <span>{fmt(total)}</span>
             </div>
-            <button className="btn-gold" style={{ width: '100%', padding: 14 }}>
+            <a
+              className="btn-gold"
+              style={{ width: '100%', padding: 14, display: 'inline-block', textAlign: 'center', textDecoration: 'none' }}
+              href={(() => {
+                const items = cart.map(i => `${i.name} (x${i.qty}) - ${fmt(i.price * i.qty)}`).join('%0A');
+                const totalMsg = `Total: ${fmt(total)}`;
+                const msg = encodeURIComponent(`Order Details:%0A${items}%0A${totalMsg}`);
+                return `https://wa.me/${SELLER.whatsapp}?text=${msg}`;
+              })()}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Proceed to Checkout
-            </button>
+            </a>
           </div>
         )}
       </div>

@@ -1,23 +1,8 @@
-import { useState } from 'react';
 import SELLER from '../config/seller';
 import { FAQS } from '../data/static';
 import FAQ from '../components/FAQ';
 
 export default function ContactPage() {
-  const [form, setForm] = useState({
-    name: '', email: '', phone: '', subject: '', message: '',
-  });
-  const [sent, setSent] = useState(false);
-
-  const set = (key) => (e) => setForm((f) => ({ ...f, [key]: e.target.value }));
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setSent(true);
-    setForm({ name: '', email: '', phone: '', subject: '', message: '' });
-    setTimeout(() => setSent(false), 6000);
-  };
-
   return (
     <>
       {/* Page Hero */}
@@ -29,7 +14,7 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <div className="contact-wrap">
+      <div className="contact-wrap single">
 
         {/* ── LEFT: CONTACT INFO ──────────────────────────── */}
         <div className="ci">
@@ -40,10 +25,10 @@ export default function ContactPage() {
           </p>
 
           {[
-            ['📞', 'Phone',        `${SELLER.phone1}\n${SELLER.phone2}`],
-            ['💬', 'WhatsApp',     SELLER.phone1],
+            ['📞', 'Phone',        `${SELLER.phone1}`],
+            ['💬', 'WhatsApp',     SELLER.whatsapp],
             ['✉️', 'Email',        SELLER.email],
-            ['📍', 'Address',      SELLER.address],
+            // ['📍', 'Address',      SELLER.address],
             ['🕐', 'Working Hours',SELLER.hours],
           ].map(([ico, title, text]) => (
             <div key={title} className="cd">
@@ -77,62 +62,6 @@ export default function ContactPage() {
               <a className="s-call" href={`tel:${SELLER.phone1}`}>📞 Call Now</a>
             </div>
           </div>
-        </div>
-
-        {/* ── RIGHT: CONTACT FORM ─────────────────────────── */}
-        <div className="c-form">
-          <h3>Send Us a Message</h3>
-
-          {sent && (
-            <div className="f-ok">
-              ✓ Your message has been sent! We'll respond within 2 hours.
-            </div>
-          )}
-
-          <form onSubmit={handleSubmit}>
-            <div className="f-row">
-              <div className="fg">
-                <label>Full Name *</label>
-                <input required value={form.name} onChange={set('name')} placeholder="Your name" />
-              </div>
-              <div className="fg">
-                <label>Phone Number</label>
-                <input value={form.phone} onChange={set('phone')} placeholder="+91 XXXXX XXXXX" />
-              </div>
-            </div>
-
-            <div className="fg">
-              <label>Email Address *</label>
-              <input required type="email" value={form.email} onChange={set('email')} placeholder="you@email.com" />
-            </div>
-
-            <div className="fg">
-              <label>Subject</label>
-              <select value={form.subject} onChange={set('subject')}>
-                <option value="">Select a subject</option>
-                <option>Product Enquiry</option>
-                <option>Order Tracking</option>
-                <option>Returns &amp; Refunds</option>
-                <option>B2B / Bulk Orders</option>
-                <option>Store Visit</option>
-                <option>Other</option>
-              </select>
-            </div>
-
-            <div className="fg">
-              <label>Message *</label>
-              <textarea
-                required
-                value={form.message}
-                onChange={set('message')}
-                placeholder="Tell us how we can help…"
-              />
-            </div>
-
-            <button type="submit" className="btn-gold" style={{ width: '100%', padding: 14 }}>
-              Send Message
-            </button>
-          </form>
         </div>
       </div>
 

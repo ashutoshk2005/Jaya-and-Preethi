@@ -23,7 +23,7 @@ export const TESTIMONIALS = [
 
 export const CATEGORY_PILLS = [
   { label: "New Arrivals", img: IMAGES.catNewArrivals },
-  { label: "Royal Family", img: IMAGES.catRoyal       },
+  // { label: "Royal Family", img: IMAGES.catRoyal       },
   { label: "Blue & White", img: IMAGES.catBlueWhite   },
   { label: "Decor",        img: IMAGES.catDecor        },
   { label: "Kitchen",      img: IMAGES.catKitchen      },
@@ -34,9 +34,9 @@ export const CATEGORY_PILLS = [
 export const MOSAIC_ITEMS = [
   { label: "Kitchen Storage",     img: IMAGES.mosaicStorage   },
   { label: "Cake & Tiered Stands",img: IMAGES.mosaicCake      },
-  { label: "Serveware",           img: IMAGES.mosaicServeware },
+  // { label: "Serveware",           img: IMAGES.mosaicServeware },
   { label: "Kitchen Accessories", img: IMAGES.mosaicAccessory },
-  { label: "Dinner Plates",       img: IMAGES.mosaicPlates    },
+  // { label: "Dinner Plates",       img: IMAGES.mosaicPlates    },
 ];
 
 export const FEATURES = [

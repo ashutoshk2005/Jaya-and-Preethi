@@ -195,6 +195,8 @@ button { cursor: pointer; }
 
 /* ── CONTACT PAGE ────────────────────────────────────── */
 .contact-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; max-width: 1160px; margin: 80px auto; padding: 0 48px; }
+.contact-wrap.single { grid-template-columns: 1fr; justify-items: center; }
+.contact-wrap.single .ci { width: 100%; max-width: 760px; }
 .ci > h2     { font-family: var(--serif); font-size: clamp(26px,3vw,40px); font-weight: 400; color: var(--deep); margin-bottom: 18px; }
 .ci > p      { font-family: var(--sans); font-size: 14px; color: var(--slate); line-height: 1.8; margin-bottom: 30px; }
 .cd          { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 22px; }

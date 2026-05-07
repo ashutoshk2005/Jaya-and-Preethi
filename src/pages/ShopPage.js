@@ -1,12 +1,16 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PRODUCTS, { CATEGORIES, MATERIALS } from '../data/products';
 import ProductCard from '../components/ProductCard';
 
-export default function ShopPage({ onSelect }) {
+export default function ShopPage({ onSelect, initialSearch = '' }) {
   const [selCats, setSelCats] = useState(['All']);
   const [selMats, setSelMats] = useState([]);
   const [sort,    setSort]    = useState('featured');
   const [search,  setSearch]  = useState('');
+
+  useEffect(() => {
+    setSearch((prev) => (prev === initialSearch ? prev : initialSearch));
+  }, [initialSearch]);
 
   const toggleCat = (c) => {
     if (c === 'All') { setSelCats(['All']); return; }

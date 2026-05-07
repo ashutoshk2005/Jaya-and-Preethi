@@ -9,14 +9,12 @@ const SELLER = {
   tagline:   "Crafted & Trusted for Over 12 Years",
 
   // Contact numbers
-  phone1:    "+91 9354378404",
-  phone2:    "+91 64465465444",
+  phone1:    "+91 74284 46533",
 
   // WhatsApp number WITHOUT + or spaces (country code + number)
-  whatsapp:  "919354378414",
+  whatsapp:  "917428446533",
 
-  email:     "jaya@preeti.lifestyle.com",
-  address:   "Jaya & Preeti, New Delhi, India",
+  email:     "preetilifestyle33@gmail.com",
   hours:     "Mon–Sat: 10AM – 7PM  |  Sun: 11AM – 5PM",
 
   // Social links

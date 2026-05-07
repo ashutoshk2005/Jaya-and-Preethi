@@ -17,7 +17,6 @@ export default function HomePage({ navigate, onSelect }) {
         <div className="hero-bg" style={{ backgroundImage: `url(${IMAGES.hero})` }} />
         <div className="hero-ov" />
         <div className="hero-c">
-          <span className="eyebrow">Crafted &amp; Trusted for Over 12 Years</span>
           <h1 className="hero-h">
             Bring Life <em>to Your</em> Walls
           </h1>

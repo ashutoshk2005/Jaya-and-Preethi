@@ -21,6 +21,7 @@ export default function App() {
   const [cartOpen,  setCartOpen]  = useState(false);
   const [selected,  setSelected]  = useState(null);   // product shown in modal
   const [scrolled,  setScrolled]  = useState(false);
+  const [shopQuery, setShopQuery] = useState('');
 
   // Scroll-to-top + navbar shadow
   useEffect(() => {
@@ -52,11 +53,6 @@ export default function App() {
 
   return (
     <>
-      {/* Announcement bar */}
-      <div className="ann">
-        ✦ New arrivals · Shop Now, Pay on Delivery · Crafted &amp; Trusted for Over 12 Years ✦
-      </div>
-
       {/* Navigation */}
       <Navbar
         page={page}
@@ -64,11 +60,12 @@ export default function App() {
         cartCount={cartCount}
         onCart={() => setCartOpen(true)}
         scrolled={scrolled}
+        onSearch={(q) => { setShopQuery(q); navigate('shop'); }}
       />
 
       {/* Page Content */}
       {page === 'home'    && <HomePage    navigate={navigate} onSelect={setSelected} />}
-      {page === 'shop'    && <ShopPage    onSelect={setSelected} />}
+      {page === 'shop'    && <ShopPage    onSelect={setSelected} initialSearch={shopQuery} />}
       {page === 'about'   && <AboutPage   navigate={navigate} />}
       {page === 'contact' && <ContactPage />}
 
