@@ -85,12 +85,7 @@ const IMAGES = {
   Cushion4: "/images/Cushion4.jpeg",
   Cushion5: "/images/Cushion5.jpeg",
   Cushion6: "/images/Cushion6.jpeg",
-  Doormats: doorImg01,
-  Doormats2: doorImg02,
-  Doormats3: doorImg03,
-  Doormats4: doorImg04,
-  Doormats5: doorImg05,
-  Doormats6: doorImg06,
+
   FoodMats: "/images/FoodMats.jpeg",
   FoodMats2: "/images/FoodMats2.jpeg",
   FoodMats3: "/images/FoodMats3.jpeg",
@@ -100,6 +95,13 @@ const IMAGES = {
   TableRunner: "/images/TableRunner.jpeg",
   TableRunner2: "/images/TableRunner2.jpeg",
   TableRunner3: "/images/TableRunner3.jpeg",
+
+  Doormats: doorImg01,
+  Doormats2: doorImg02,
+  Doormats3: doorImg03,
+  Doormats4: doorImg04,
+  Doormats5: doorImg05,
+  Doormats6: doorImg06,
 
 
 
