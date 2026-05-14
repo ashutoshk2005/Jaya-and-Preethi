@@ -1,14 +1,25 @@
-import { useState } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import IMAGES from '../config/images';
 import PRODUCTS from '../data/products';
 import { TESTIMONIALS, CATEGORY_PILLS, MOSAIC_ITEMS, FEATURES } from '../data/static';
 import ProductCard from '../components/ProductCard';
 
 export default function HomePage({ navigate, onSelect }) {
-  const tabKeys = [...new Set(PRODUCTS.map((p) => p.category))];
-  const [tab, setTab] = useState(tabKeys[0]);
+  const tabKeys = useMemo(
+    () => [...new Set(PRODUCTS.map((p) => String(p.category).trim()))],
+    []
+  );
+  const [tab, setTab] = useState(() => tabKeys[0]);
 
-  const tabProducts = PRODUCTS.filter((p) => p.category === tab).slice(0, 4);
+  useEffect(() => {
+    if (tabKeys.length && !tabKeys.includes(tab)) {
+      setTab(tabKeys[0]);
+    }
+  }, [tab, tabKeys]);
+
+  const tabProducts = PRODUCTS
+    .filter((p) => String(p.category).trim() === tab)
+    .slice(0, 4);
 
   return (
     <>
@@ -69,7 +80,11 @@ export default function HomePage({ navigate, onSelect }) {
 
         <div className="p-grid">
           {tabProducts.map((p) => (
-            <ProductCard key={p.id} product={p} onSelect={onSelect} />
+            <ProductCard
+              key={`${tab}-${p.id}-${String(p.category).trim()}`}
+              product={p}
+              onSelect={onSelect}
+            />
           ))}
         </div>
 

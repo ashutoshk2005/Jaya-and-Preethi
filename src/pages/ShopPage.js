@@ -27,7 +27,8 @@ export default function ShopPage({ onSelect, initialSearch = '' }) {
     );
 
   let filtered = PRODUCTS.filter((p) => {
-    const catOk = selCats.includes('All') || selCats.includes(p.category);
+    const cat = String(p.category).trim();
+    const catOk = selCats.includes('All') || selCats.includes(cat);
     const matOk = selMats.length === 0   || selMats.includes(p.material);
     const srOk  = !search || p.name.toLowerCase().includes(search.toLowerCase());
     return catOk && matOk && srOk;
@@ -100,7 +101,11 @@ export default function ShopPage({ onSelect, initialSearch = '' }) {
 
           <div className="p-grid">
             {filtered.map((p) => (
-              <ProductCard key={p.id} product={p} onSelect={onSelect} />
+              <ProductCard
+                key={`${String(p.category).trim()}-${p.id}`}
+                product={p}
+                onSelect={onSelect}
+              />
             ))}
             {filtered.length === 0 && (
               <div
