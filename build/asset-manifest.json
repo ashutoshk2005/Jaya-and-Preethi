@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a80ff918.css",
-    "main.js": "/static/js/main.30476772.js",
+    "main.js": "/static/js/main.bbbf3d72.js",
+    "static/media/DoorMats05.jpeg": "/static/media/DoorMats05.66238cdf27ac6bc0e49a.jpeg",
+    "static/media/DoorMats03.jpeg": "/static/media/DoorMats03.cb096d15f8cbd98ad481.jpeg",
+    "static/media/DoorMats04.jpeg": "/static/media/DoorMats04.a69f5e74cdf088c32de6.jpeg",
+    "static/media/DoorMats01.jpeg": "/static/media/DoorMats01.7dfdda209a95257feb09.jpeg",
+    "static/media/DoorMats06.jpeg": "/static/media/DoorMats06.3b38b62800449efff8e5.jpeg",
+    "static/media/DoorMats02.jpeg": "/static/media/DoorMats02.746aad0cd559c538d462.jpeg",
     "index.html": "/index.html",
     "main.a80ff918.css.map": "/static/css/main.a80ff918.css.map",
-    "main.30476772.js.map": "/static/js/main.30476772.js.map"
+    "main.bbbf3d72.js.map": "/static/js/main.bbbf3d72.js.map"
   },
   "entrypoints": [
     "static/css/main.a80ff918.css",
-    "static/js/main.30476772.js"
+    "static/js/main.bbbf3d72.js"
   ]
 }
