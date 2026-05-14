@@ -3,6 +3,15 @@
 //  ✏️  EDIT ALL IMAGES HERE — just swap the URLs
 // ============================================================
 
+// Bundled so production hosts (e.g. Vercel) always resolve URLs via /static/media/
+// instead of relying on /public/images alone (avoids routing/cache edge cases).
+import doorImg01 from '../assets/doormats/DoorMats01.jpeg';
+import doorImg02 from '../assets/doormats/DoorMats02.jpeg';
+import doorImg03 from '../assets/doormats/DoorMats03.jpeg';
+import doorImg04 from '../assets/doormats/DoorMats04.jpeg';
+import doorImg05 from '../assets/doormats/DoorMats05.jpeg';
+import doorImg06 from '../assets/doormats/DoorMats06.jpeg';
+
 const IMAGES = {
 
   // ── Hero & Full-Width Banners ─────────────────────────────
@@ -76,12 +85,12 @@ const IMAGES = {
   Cushion4: "/images/Cushion4.jpeg",
   Cushion5: "/images/Cushion5.jpeg",
   Cushion6: "/images/Cushion6.jpeg",
-  Doormats: "/images/DoorMats01.jpeg",
-  Doormats2: "/images/DoorMats02.jpeg",
-  Doormats3: "/images/DoorMats03.jpeg",
-  Doormats4: "/images/DoorMats04.jpeg",
-  Doormats5: "/images/DoorMats05.jpeg",
-  Doormats6: "/images/DoorMats06.jpeg",
+  Doormats: doorImg01,
+  Doormats2: doorImg02,
+  Doormats3: doorImg03,
+  Doormats4: doorImg04,
+  Doormats5: doorImg05,
+  Doormats6: doorImg06,
   FoodMats: "/images/FoodMats.jpeg",
   FoodMats2: "/images/FoodMats2.jpeg",
   FoodMats3: "/images/FoodMats3.jpeg",
