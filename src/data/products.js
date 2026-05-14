@@ -178,513 +178,513 @@ const PRODUCTS = [
   // ── Slippers ───────────────────────────────────────────
   {
     id: 3001,
-    name:      "Cozy Cotton Home Slippers",
-    material:  "Cotton",
-    category:  "Slippers",
-    price:     350,
-    img:       IMAGES.cozySlippers,
-    desc:      "Soft, breathable cotton slippers perfect for indoor comfort. Machine washable. Available in multiple sizes.",
+    name: "Cozy Cotton Home Slippers",
+    material: "Cotton",
+    category: "Slippers",
+    price: 350,
+    img: IMAGES.cozySlippers,
+    desc: "Soft, breathable cotton slippers perfect for indoor comfort. Machine washable. Available in multiple sizes.",
   },
 
   {
 
     id: 3002,
-    name:      "Memory Foam Slippers",
-    material:  "Memory Foam",
-    category:  "Slippers",
-    price:     550,
-    img:       IMAGES.cozySlippers2,
-    desc:      "Luxuriously cushioned memory foam slippers with a plush fleece lining. Ideal for all-day comfort at home.",
+    name: "Memory Foam Slippers",
+    material: "Memory Foam",
+    category: "Slippers",
+    price: 550,
+    img: IMAGES.cozySlippers2,
+    desc: "Luxuriously cushioned memory foam slippers with a plush fleece lining. Ideal for all-day comfort at home.",
   },
 
   {
     id: 3003,
-    name:      "Fuzzy Faux Fur Slippers",
-    material:  "Faux Fur",
-    category:  "Slippers",
-    price:     650,
-    img:       IMAGES.cozySlippers1,
-    desc:      "Ultra-soft faux fur slippers with a cozy sherpa lining. Perfect for keeping your feet warm during colder months.",
+    name: "Fuzzy Faux Fur Slippers",
+    material: "Faux Fur",
+    category: "Slippers",
+    price: 650,
+    img: IMAGES.cozySlippers1,
+    desc: "Ultra-soft faux fur slippers with a cozy sherpa lining. Perfect for keeping your feet warm during colder months.",
   },
 
 
 
   //-- ── Pillows ───────────────────────────────────────────
-{
-  id: 4001,
-  name:      "White Pillow",
-  Colour:  "White",
-  category:  "Pillows",
-  price:     200,
-  img:       IMAGES.Whitepillow,
-  desc:      "Sumptuously soft velvet throw pillow with a plush down alternative insert. Available in rich jewel tones. Size: 18” × 18”.",
-
-},
-
-{
-  id: 4002,
-  name:      "Red Pillow",
-  Colour:  "Red",
-  category:  "Pillows",
-  price:     200,
-  img:       IMAGES.RedPillow,
-  desc:      "Sumptuously soft velvet throw pillow with a plush down alternative insert. Available in rich jewel tones. Size: 18” × 18”.",
-},
-
-{
-  id: 4003,
-  name:      "Black Pillow",
-  Colour:  "Black",
-  category:  "Pillows",
-  price:     200,
-  img:       IMAGES.BlackPillow,
-  desc:      "Sumptuously soft velvet throw pillow with a plush down alternative insert. Available in rich jewel tones. Size: 18” × 18”.",
-},
-
-{
-  id: 4004,
-  name:      "Warm White Pillow",
-  Colour:  "Warm White",
-  category:  "Pillows",
-  price:     550,
-  img:       IMAGES.WarmWhitePillow,
-  desc:      "Set of three velvet throw pillows in deep sapphire, emerald, and ruby hues. Each pillow includes a plush down alternative insert. Size: 18” × 18”.",
-},
-
-
-
-
-// ── Carpets & Runners ───────────────────────────────────────────
-
-{
-id: 5001,
-name:      "Premium Comfort Runner",
-Weight:  "700 Grams",
-category:  "Runners & Carpets",
-price:     699,
-img:       IMAGES.Runners,
-desc:      "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich reds and blues. Size: 22’ × 55’ Inches. Durable and soft underfoot, perfect for living rooms and bedrooms.",
-},
-
-
-{
-id: 5005,
-name:      "Carpets",
-Weight:  "500 Grams",
-category:  "Runners & Carpets",
-price:     1200,
-img:       IMAGES.Carpets,
-desc:      "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
-},
-
-{
-id: 5006,
-name:      "Carpets",
-Weight:  "500 Grams",
-category:  "Runners & Carpets",
-price:     1200,
-img:       IMAGES.Carpets2,
-desc:      "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
-},
-
-{
-id: 5007,
-name:      "Carpets",
-Weight:  "500 Grams",
-category:  "Runners & Carpets",
-price:     1200,
-img:       IMAGES.Carpets3,
-desc:      "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
-},
-
-{
-id: 5008,
-name:      "Carpets",
-Weight:  "500 Grams",
-category:  "Runners & Carpets",
-price:     1200,
-img:       IMAGES.Carpets4,
-desc:      "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
-},
-
-
-
-// ── Washbags & Travel Accessories ───────────────────────────────────────────
-{
-id: 5002,
-name:      "Travel Washbag",
-Weight:  "200 Grams",
-category:  "Bags",
-price:     499,
-img:       IMAGES.Washbags,
-desc:      "Compact travel washbag with multiple compartments for organizing toiletries. Lightweight and easy to pack. Ideal for business trips and vacations.",
-},
-
-
-{
-  id: 5004,
-  name:      "Jumbo Size Double Bed Blanket Bag",
-  Material:  "Canvas",
-  category:  "Bags",
-  price:     1200,
-  img:       IMAGES.BlanketBag,
-  desc:      "Oversized canvas blanket bag with sturdy handles and a secure zip closure. Perfect for storing and transporting large bedding items like comforters and quilts.",
-},
-
-
-
-
+  {
+    id: 4001,
+    name: "White Pillow",
+    Colour: "White",
+    category: "Pillows",
+    price: 200,
+    img: IMAGES.Whitepillow,
+    desc: "Sumptuously soft velvet throw pillow with a plush down alternative insert. Available in rich jewel tones. Size: 18” × 18”.",
+
+  },
+
+  {
+    id: 4002,
+    name: "Red Pillow",
+    Colour: "Red",
+    category: "Pillows",
+    price: 200,
+    img: IMAGES.RedPillow,
+    desc: "Sumptuously soft velvet throw pillow with a plush down alternative insert. Available in rich jewel tones. Size: 18” × 18”.",
+  },
+
+  {
+    id: 4003,
+    name: "Black Pillow",
+    Colour: "Black",
+    category: "Pillows",
+    price: 200,
+    img: IMAGES.BlackPillow,
+    desc: "Sumptuously soft velvet throw pillow with a plush down alternative insert. Available in rich jewel tones. Size: 18” × 18”.",
+  },
+
+  {
+    id: 4004,
+    name: "Warm White Pillow",
+    Colour: "Warm White",
+    category: "Pillows",
+    price: 550,
+    img: IMAGES.WarmWhitePillow,
+    desc: "Set of three velvet throw pillows in deep sapphire, emerald, and ruby hues. Each pillow includes a plush down alternative insert. Size: 18” × 18”.",
+  },
+
+
+
+
+  // ── Carpets & Runners ───────────────────────────────────────────
+
+  {
+    id: 5001,
+    name: "Premium Comfort Runner",
+    Weight: "700 Grams",
+    category: "Runners & Carpets",
+    price: 699,
+    img: IMAGES.Runners,
+    desc: "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich reds and blues. Size: 22’ × 55’ Inches. Durable and soft underfoot, perfect for living rooms and bedrooms.",
+  },
+
+
+  {
+    id: 5005,
+    name: "Carpets",
+    Weight: "500 Grams",
+    category: "Runners & Carpets",
+    price: 1200,
+    img: IMAGES.Carpets,
+    desc: "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
+  },
+
+  {
+    id: 5006,
+    name: "Carpets",
+    Weight: "500 Grams",
+    category: "Runners & Carpets",
+    price: 1200,
+    img: IMAGES.Carpets2,
+    desc: "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
+  },
+
+  {
+    id: 5007,
+    name: "Carpets",
+    Weight: "500 Grams",
+    category: "Runners & Carpets",
+    price: 1200,
+    img: IMAGES.Carpets3,
+    desc: "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
+  },
+
+  {
+    id: 5008,
+    name: "Carpets",
+    Weight: "500 Grams",
+    category: "Runners & Carpets",
+    price: 1200,
+    img: IMAGES.Carpets4,
+    desc: "Hand-tufted wool area rug with intricate Persian-inspired patterns in rich Multicolors. Durable and soft underfoot, perfect for living rooms and bedrooms."
+  },
+
+
+
+  // ── Washbags & Travel Accessories ───────────────────────────────────────────
+  {
+    id: 5002,
+    name: "Travel Washbag",
+    Weight: "200 Grams",
+    category: "Bags",
+    price: 499,
+    img: IMAGES.Washbags,
+    desc: "Compact travel washbag with multiple compartments for organizing toiletries. Lightweight and easy to pack. Ideal for business trips and vacations.",
+  },
+
+
+  {
+    id: 5004,
+    name: "Jumbo Size Double Bed Blanket Bag",
+    material: "Canvas",
+    category: "Bags",
+    price: 1200,
+    img: IMAGES.BlanketBag,
+    desc: "Oversized canvas blanket bag with sturdy handles and a secure zip closure. Perfect for storing and transporting large bedding items like comforters and quilts.",
+  },
+
+
+
+
 
-// ── Dusters & Cleaning Accessories ───────────────────────────────────────────
-
-{
-
-id: 5003,
-name:      "Ceiling Fan Duster",
-category:  "Dusters",
-price:     299,
-img:       IMAGES.CeilingFanDuster,
-desc:      "Soft-bristled ceiling fan duster for gentle cleaning of fan blades. Lightweight and easy to use. Ideal for maintaining clean air circulation.",
-
-},
+  // ── Dusters & Cleaning Accessories ───────────────────────────────────────────
+
+  {
+
+    id: 5003,
+    name: "Ceiling Fan Duster",
+    category: "Dusters",
+    price: 299,
+    img: IMAGES.CeilingFanDuster,
+    desc: "Soft-bristled ceiling fan duster for gentle cleaning of fan blades. Lightweight and easy to use. Ideal for maintaining clean air circulation.",
+
+  },
 
 
 
-//kitchen items can be added here with category "Kitchen"
+  //kitchen items can be added here with category "Kitchen"
 
 
 
-{
-  id: 6001,
-name:      "Apron",
-Material:  "Ceramic",
-category:  "Kitchen",
-price:     799,
-img:       IMAGES.Apron,
-desc:      "Apron for cooking and baking needs.",
-},
+  {
+    id: 6001,
+    name: "Apron",
+    material: "Ceramic",
+    category: "Kitchen",
+    price: 799,
+    img: IMAGES.Apron,
+    desc: "Apron for cooking and baking needs.",
+  },
 
 
 
-//bedsheets can be added here with category "bedsheets"
-
-{
-  id: 7001,
-name:      "Bedsheets",
-Material:  "Cotton",
-category:  "bedsheets",
-price:     1999,
-img:       IMAGES.BedSheets,
-desc:      "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
-},
-
-{
-  id: 7002,
-name:      "Bedsheets",
-Material:  "Cotton",
-category:  "bedsheets",
-price:     1999,
-img:       IMAGES.BedSheets2,
-desc:      "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
-},
-
-{
-  id: 7003, 
-name:      "Bedsheets",
-Material:  "Cotton",
-category:  "bedsheets",
-price:     1999,
-img:       IMAGES.BedSheets3,
-desc:      "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
-},
+  //bedsheets can be added here with category "bedsheets"
+
+  {
+    id: 7001,
+    name: "Bedsheets",
+    material: "Cotton",
+    category: "bedsheets",
+    price: 1999,
+    img: IMAGES.BedSheets,
+    desc: "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
+  },
+
+  {
+    id: 7002,
+    name: "Bedsheets",
+    material: "Cotton",
+    category: "bedsheets",
+    price: 1999,
+    img: IMAGES.BedSheets2,
+    desc: "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
+  },
+
+  {
+    id: 7003,
+    name: "Bedsheets",
+    material: "Cotton",
+    category: "bedsheets",
+    price: 1999,
+    img: IMAGES.BedSheets3,
+    desc: "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
+  },
 
-{
-  id: 7004,
-name:      "Bedsheets",
-Material:  "Cotton",
-category:  "bedsheets",
-price:     1999,
-img:       IMAGES.BedSheets4,
-desc:      "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
-},
-
-{
-  id: 7005,
-name:      "Bedsheets",
-Material:  "Cotton",
-category:  "bedsheets",
-price:     1999,
-img:       IMAGES.BedSheets5,
-desc:      "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
-},
-
-{
-  id: 7006,
-name:      "Bedsheets",
-Material:  "Cotton",
-category:  "bedsheets",
-price:     1999,
-img:       IMAGES.BedSheets6,
-desc:      "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
-},
-
-
-
-
-
-// ── Others ───────────────────────────────────────────
-
-{
-  id: 9001,
-name:      "Dental Kit",
-Material:  "Plastic",
-category:  "Others",
-price:     499,
-img:       IMAGES.DentalKit,
-desc:      "Complete dental kit with toothbrush, toothpaste, floss, and mouthwash. Compact and travel-friendly design. Ideal for maintaining oral hygiene on the go."
-},
-
-
-
-
-// ── Cushions ───────────────────────────────────────────
-
-
-
-{
-  id: 10001,
-name:      "Cushions",
-Material:  "Fibre Filling",
-category:  "Cushions",
-price:     999,
-img:       IMAGES.Cushion,
-desc:      "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
-},
-
-{
-  id: 10002,  
-name:      "Cushions",
-Material:  "Fibre Filling",
-category:  "Cushions",
-price:     999,
-img:       IMAGES.Cushion4,
-desc:      "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
-},
-
-{
-
-  id: 10003,
-name:      "Cushions",
-Material:  "Fibre Filling",
-category:  "Cushions",
-price:     999,
-img:       IMAGES.Cushion2,
-desc:      "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
-},
-
-{
-  id: 10004,
-name:      "Cushions",
-Material:  "Fibre Filling",
-category:  "Cushions",
-price:     999,
-img:       IMAGES.Cushion3,
-desc:      "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
-},
-
-
-
-
-// ── Doormats ───────────────────────────────────────────
-
-{
-  id: 11001,
-name:      "Doormats",
-Material:  "Coir",
-category:  "Doormats",
-price:     499,
-img:       IMAGES.Doormats,
-desc:      "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
-},
-
-{
-  id: 11002,
-name:      "Doormats",
-Material:  "Coir",
-category:  "Doormats",
-price:     499,
-img:       IMAGES.Doormats2,
-desc:      "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
-
-},
-
-{
-  id: 11002,
-name:      "Doormats",
-Material:  "Coir",
-category:  "Doormats",
-price:     499,
-img:       IMAGES.Doormats3,
-desc:      "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
-
-},
-
-
-{
-  id: 11002,
-name:      "Doormats",
-Material:  "Coir",
-category:  "Doormats",
-price:     499,
-img:       IMAGES.Doormats4,
-desc:      "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
-
-},
-
-
-{
-  id: 11002,
-name:      "Doormats",
-Material:  "Coir",
-category:  "Doormats",
-price:     499,
-img:       IMAGES.Doormats5,
-desc:      "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
-
-},
-
-{
-  id: 11002,
-name:      "Doormats",
-Material:  "Coir",
-category:  "Doormats",
-price:     499,
-img:       IMAGES.Doormats6,
-desc:      "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
-
-},
-
-
-
-// Kitchen Mats can be added here with category "Kitchen Mats"
-
-{
-  id: 12001,
-name:      "Kitchen Mat",
-Material:  "Rubber",
-category:  "Kitchen Mats",
-price:     799,
-img:       IMAGES.KitchenMats,
-desc:      "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
-},
-
-{
-  id: 12002,
-name:      "Kitchen Mat",
-Material:  "Rubber",
-category:  "Kitchen Mats",
-price:     799,
-img:       IMAGES.KitchenMats2,
-desc:      "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
-},
-
-{
-  id: 12003,
-name:      "Kitchen Mat",
-Material:  "Rubber",
-category:  "Kitchen Mats",
-price:     799,
-img:       IMAGES.KitchenMats3,
-desc:      "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
-},
-
-{
-  id: 12004,
-name:      "Kitchen Mat",
-Material:  "Rubber",
-category:  "Kitchen Mats",
-price:     799,
-img:       IMAGES.KitchenMats4,
-desc:      "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
-},
-
-{
-  id: 12005,
-name:      "Kitchen Mat",
-Material:  "Rubber",  
-category:  "Kitchen Mats",
-price:     799,
-img:       IMAGES.KitchenMats4,
-desc:      "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
-},
-
-
-// ── Food Mats can be added here with category "Food Mats"
-
-{
-  id: 13001,
-name:      "Food Mat",
-Material:  "Silicone",
-category:  "Food Mats",
-price:     499,
-img:       IMAGES.FoodMats,
-desc:      "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
-},
-
-{
-  id: 13002,
-name:      "Food Mat",
-Material:  "Silicone",
-category:  "Food Mats",
-price:     499,
-img:       IMAGES.FoodMats2,
-desc:      "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
-},
-
-{
-  id: 13003,
-name:      "Food Mat",
-Material:  "Silicone",
-category:  "Food Mats",
-price:     499,
-img:       IMAGES.FoodMats3,
-desc:      "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
-},
-
-// Add more food table mats here with unique ids, images, and descriptions as needed.
-
-{
-  id: 13004,
-name:      "Table Runner",
-Material:  "Silicone",
-category:  "Table Runner",
-price:     499,
-img:       IMAGES.TableRunner,
-desc:      "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
-},
-
-{
-  id: 13005,
-name:      "Table Runner",
-Material:  "Silicone",
-category:  "Table Runner",
-price:     499,
-img:       IMAGES.TableRunner2,
-desc:      "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
-},
-
-{
-  id: 13006,
-name:      "Table Runner",
-Material:  "Silicone",
-category:  "Table Runner",
-price:     499,
-img:       IMAGES.TableRunner3,
-desc:      "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
-},
+  {
+    id: 7004,
+    name: "Bedsheets",
+    material: "Cotton",
+    category: "bedsheets",
+    price: 1999,
+    img: IMAGES.BedSheets4,
+    desc: "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
+  },
+
+  {
+    id: 7005,
+    name: "Bedsheets",
+    material: "Cotton",
+    category: "bedsheets",
+    price: 1999,
+    img: IMAGES.BedSheets5,
+    desc: "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
+  },
+
+  {
+    id: 7006,
+    name: "Bedsheets",
+    material: "Cotton",
+    category: "bedsheets",
+    price: 1999,
+    img: IMAGES.BedSheets6,
+    desc: "Luxurious cotton bedsheets with a high thread count for ultimate comfort. Available in a range of colors and patterns to suit any bedroom decor. Soft, breathable, and durable for a restful night's sleep.",
+  },
+
+
+
+
+
+  // ── Others ───────────────────────────────────────────
+
+  {
+    id: 9001,
+    name: "Dental Kit",
+    material: "Plastic",
+    category: "Others",
+    price: 499,
+    img: IMAGES.DentalKit,
+    desc: "Complete dental kit with toothbrush, toothpaste, floss, and mouthwash. Compact and travel-friendly design. Ideal for maintaining oral hygiene on the go."
+  },
+
+
+
+
+  // ── Cushions ───────────────────────────────────────────
+
+
+
+  {
+    id: 10001,
+    name: "Cushions",
+    material: "Fibre Filling",
+    category: "Cushions",
+    price: 999,
+    img: IMAGES.Cushion,
+    desc: "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
+  },
+
+  {
+    id: 10002,
+    name: "Cushions",
+    material: "Fibre Filling",
+    category: "Cushions",
+    price: 999,
+    img: IMAGES.Cushion4,
+    desc: "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
+  },
+
+  {
+
+    id: 10003,
+    name: "Cushions",
+    material: "Fibre Filling",
+    category: "Cushions",
+    price: 999,
+    img: IMAGES.Cushion2,
+    desc: "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
+  },
+
+  {
+    id: 10004,
+    name: "Cushions",
+    material: "Fibre Filling",
+    category: "Cushions",
+    price: 999,
+    img: IMAGES.Cushion3,
+    desc: "Luxury floor cushions in a range of colors and patterns. Perfect for adding comfort and style to any living space. Size: 40” × 40”.",
+  },
+
+
+
+
+  // ── Doormats ───────────────────────────────────────────
+
+  {
+    id: 11001,
+    name: "Doormats",
+    material: "Coir",
+    category: "Doormats",
+    price: 499,
+    img: IMAGES.Doormats,
+    desc: "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
+  },
+
+  {
+    id: 11003,
+    name: "Doormats",
+    material: "Coir",
+    category: "Doormats",
+    price: 499,
+    img: IMAGES.Doormats2,
+    desc: "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
+
+  },
+
+  {
+    id: 11004,
+    name: "Doormats",
+    material: "Coir",
+    category: "Doormats",
+    price: 499,
+    img: IMAGES.Doormats3,
+    desc: "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
+
+  },
+
+
+  {
+    id: 11005,
+    name: "Doormats",
+    material: "Coir",
+    category: "Doormats",
+    price: 499,
+    img: IMAGES.Doormats4,
+    desc: "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
+
+  },
+
+
+  {
+    id: 11006,
+    name: "Doormats",
+    material: "Coir",
+    category: "Doormats",
+    price: 499,
+    img: IMAGES.Doormats5,
+    desc: "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
+
+  },
+
+  {
+    id: 11007,
+    name: "Doormats",
+    material: "Coir",
+    category: "Doormats",
+    price: 499,
+    img: IMAGES.Doormats6,
+    desc: "Durable coir doormat with a non-slip backing. Perfect for keeping dirt and debris outside your home. Available in various designs to suit your entryway decor."
+
+  },
+
+
+
+  // Kitchen Mats can be added here with category "Kitchen Mats"
+
+  {
+    id: 12001,
+    name: "Kitchen Mat",
+    material: "Rubber",
+    category: "Kitchen Mats",
+    price: 799,
+    img: IMAGES.KitchenMats,
+    desc: "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
+  },
+
+  {
+    id: 12002,
+    name: "Kitchen Mat",
+    material: "Rubber",
+    category: "Kitchen Mats",
+    price: 799,
+    img: IMAGES.KitchenMats2,
+    desc: "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
+  },
+
+  {
+    id: 12003,
+    name: "Kitchen Mat",
+    material: "Rubber",
+    category: "Kitchen Mats",
+    price: 799,
+    img: IMAGES.KitchenMats3,
+    desc: "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
+  },
+
+  {
+    id: 12004,
+    name: "Kitchen Mat",
+    material: "Rubber",
+    category: "Kitchen Mats",
+    price: 799,
+    img: IMAGES.KitchenMats4,
+    desc: "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
+  },
+
+  {
+    id: 12005,
+    name: "Kitchen Mat",
+    material: "Rubber",
+    category: "Kitchen Mats",
+    price: 799,
+    img: IMAGES.KitchenMats4,
+    desc: "Anti-fatigue kitchen mat with a non-slip rubber backing. Provides comfort and support during long cooking sessions. Easy to clean and available in various colors and patterns."
+  },
+
+
+  // ── Food Mats can be added here with category "Food Mats"
+
+  {
+    id: 13001,
+    name: "Food Mat",
+    material: "Silicone",
+    category: "Food Mats",
+    price: 499,
+    img: IMAGES.FoodMats,
+    desc: "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
+  },
+
+  {
+    id: 13002,
+    name: "Food Mat",
+    material: "Silicone",
+    category: "Food Mats",
+    price: 499,
+    img: IMAGES.FoodMats2,
+    desc: "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
+  },
+
+  {
+    id: 13003,
+    name: "Food Mat",
+    material: "Silicone",
+    category: "Food Mats",
+    price: 499,
+    img: IMAGES.FoodMats3,
+    desc: "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
+  },
+
+  // Add more food table mats here with unique ids, images, and descriptions as needed.
+
+  {
+    id: 13004,
+    name: "Table Runner",
+    material: "Silicone",
+    category: "Table Runner",
+    price: 499,
+    img: IMAGES.TableRunner,
+    desc: "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
+  },
+
+  {
+    id: 13005,
+    name: "Table Runner",
+    material: "Silicone",
+    category: "Table Runner",
+    price: 499,
+    img: IMAGES.TableRunner2,
+    desc: "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
+  },
+
+  {
+    id: 13006,
+    name: "Table Runner",
+    material: "Silicone",
+    category: "Table Runner",
+    price: 499,
+    img: IMAGES.TableRunner3,
+    desc: "Non-slip silicone food mat with raised edges to contain spills. Perfect for meal prep and serving. Easy to clean and dishwasher safe."
+  },
 ];
 
 export const CATEGORIES = ["All", "Blue & White", "Table Runner", "Royal Family", "Table Top", "Lighting", "Kitchen", "Slippers", "Pillows", "Runners & Carpets", "Bags", "Dusters", "bedsheets", "Others", "Cushions", "Doormats", "Kitchen Mats", "Food Mats"];
-export const MATERIALS  = ["Ceramic", "Resin", "Glass", "Crystal"];
+export const MATERIALS = ["Ceramic", "Resin", "Glass", "Crystal"];
 
 export default PRODUCTS;

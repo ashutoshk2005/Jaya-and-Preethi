@@ -21,7 +21,7 @@ export default function AboutPage({ navigate }) {
         <div className="ab-txt">
           <h2>Heritage Craftsmanship,<br />Modern Sensibility</h2>
           <p>
-            Founded over a decade ago, TheDecorKart was born from a deep love
+            Founded over time ago, Jaya & Preeti Lifestyle was born from a deep love
             of handcrafted objects and the belief that every home deserves to
             feel like a curated gallery — personal, layered, and alive with stories.
           </p>
