@@ -8,11 +8,11 @@ import { fmt } from '../utils/format';
  */
 export default function SellerContactCard({ product }) {
   const waMsg = encodeURIComponent(
-    `Hi! I'm interested in buying "${product.name}" (${fmt(product.price)}). Please share more details.`
+    `Hi! I'm interested in buying "${product.name}". Please share more details.`
   );
   const mailSubject = encodeURIComponent(`Enquiry: ${product.name}`);
   const mailBody    = encodeURIComponent(
-    `Hi,\n\nI am interested in "${product.name}" priced at ${fmt(product.price)}.\nPlease share availability and shipping details.\n\nThank you.`
+    `Hi,\n\nI am interested in "${product.name}".\nPlease share availability and shipping details.\n\nThank you.`
   );
 
   return (

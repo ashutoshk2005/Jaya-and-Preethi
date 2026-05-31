@@ -6,17 +6,12 @@ export default function ProductCard({ product, onSelect }) {
       <div className="p-img">
         <img src={product.img} alt={product.name} loading="lazy" />
         {product.save && <span className="p-save">SAVE {product.save}</span>}
-        <button className="p-quick">View &amp; Buy</button>
+        <button className="p-quick">View & Buy</button>
       </div>
       <div className="p-body">
         <span className="p-mat">{product.material}</span>
         <div className="p-name">{product.name}</div>
-        <div className="p-price">
-          {fmt(product.price)}
-          {product.oldPrice && (
-            <span className="p-old">{fmt(product.oldPrice)}</span>
-          )}
-        </div>
+        {/* Price section removed as per request */}
       </div>
     </div>
   );
